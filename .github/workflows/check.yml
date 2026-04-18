@@ -14,15 +14,9 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          # EUX OMC (R9Q_EUX_B)
-          - model: "SM-G990B"
-            region: "EUX"
-          # EUX OMC (R9Q2_EUX_B2)
-          - model: "SM-G990B2"
-            region: "EUX"
-          # ROM (R8Q Romania)
+          # ZTO (R8Q Romania)
           - model: "SM-G780G"
-            region: "ROM"
+            region: "ZTO"
 
     steps:
       - name: Checkout repo
